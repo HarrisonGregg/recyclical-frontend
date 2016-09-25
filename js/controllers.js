@@ -175,7 +175,7 @@ var categories = [
 		items: [
 			{
 				name:'Food waste',
-				description: 'Brief description of recyclable/reusable thing here. Maecenas maximus vulputate libero non fringilla. Phasellus ex dui, laoreet sagittis bibendum non, rhoncus eu nisl. Interdum et malesuada fames ac ante ipsum primis in faucibus.',
+				description: 'A third of the waste sent to landfills annually from our city is food or organic waste. Organic waste can instead be turned into compost and used to benefit our local ecosystems in many other ways. Compostable items include any plants, vegetables, teabags, coffee grounds, coffee filters, eggshells, food leftovers and more. Find a dropoff location or other ways to reuse and recycle your food waste through NYC\'s extensive programs.',
 				imageUrl: 'https://www.cambridgema.gov/~/media/Images/publicworks/recyclingandrubbish/Compost/food%20scraps%20iphoto%20from%20Biobag%20350x266.jpg?la=en'
 			}
 		]
