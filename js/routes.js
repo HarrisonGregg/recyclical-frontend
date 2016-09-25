@@ -76,12 +76,12 @@ angular.module('app.routes', [])
     }
   })
 
-  .state('menu.composting', {
-    url: '/waste-type',
+  .state('menu.wasteType', {
+    url: '/waste-type/:categoryId/:itemId',
     views: {
       'side-menu21': {
-        templateUrl: 'templates/composting.html',
-        controller: 'compostingCtrl'
+        templateUrl: 'templates/wasteType.html',
+        controller: 'wasteTypeCtrl'
       }
     }
   })
