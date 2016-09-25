@@ -1,3 +1,11 @@
+body{
+  font-family: 'Lato', sans-serif;
+}
+
+.uppercase{
+  text-transform: uppercase;
+}
+
 .button.category {
 	padding: 40px 0;
 	font-weight: bold;
@@ -21,13 +29,10 @@
 }
 
 #logo{
-  font-family: 'Lato';
-  text-transform: uppercase;
   font-weight: bold;
   font-size: 55px;
 }
 
 #slogan{
-  font-family: 'Lato';
   font-size:20px;
 }
