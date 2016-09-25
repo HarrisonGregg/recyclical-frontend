@@ -1,0 +1,17 @@
+.button.category {
+	padding: 40px 0;
+	font-weight: bold;
+	font-size: 36px;
+}
+
+.button.category.food-scraps {
+	/*background: rgba(255,201,0, .5) url('https://www.cambridgema.gov/~/media/Images/publicworks/recyclingandrubbish/Compost/food%20scraps%20iphoto%20from%20Biobag%20350x266.jpg?la=en');*/
+	background: linear-gradient(to bottom, rgba(103,167,36,0.7), rgba(103,167,36,0.7)), url(https://www.cambridgema.gov/~/media/Images/publicworks/recyclingandrubbish/Compost/food%20scraps%20iphoto%20from%20Biobag%20350x266.jpg?la=en) no-repeat center center;
+}
+.button.category.electronics {
+	background: linear-gradient(to bottom, rgba(136,106,234,0.7), rgba(136,106,234,0.7)), url(https://static1.squarespace.com/static/55589163e4b01769086ec94a/5558e335e4b02cd67022ad18/5559158ae4b0342594011515/1431901599263/all-electronics-recycling.jpg?format=500w) no-repeat center center;
+}
+
+.button.category.textiles {
+	background: linear-gradient(to bottom, rgba(239,71,58,0.7), rgba(239,71,58,0.7)), url(http://www.ecouterre.com/wp-content/uploads/2014/01/sf-zero-waste-textile-initiative-1-537x402.jpg) no-repeat center center;
+}
