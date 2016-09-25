@@ -6,11 +6,11 @@
                 <input type="text" placeholder="">
             </label>
         </form>
-        <div style="margin: 0px; line-height: 250px; background-color: rgb(232, 235, 239); text-align: center;">
-            <i class="icon ion-image" style="font-size: 64px; color: rgb(136, 136, 136); vertical-align: middle;"></i>
-        </div>
-        <a ui-sref="menu.location" id="nearbyLocations-button6" class="button button-light  button-block">320 Hudson St (0.1 miles)</a>
-        <a ui-sref="menu.location" id="nearbyLocations-button7" class="button button-light  button-block">123 Main St (2.3 miles)</a>
-        <a ui-sref="menu.location" id="nearbyLocations-button8" class="button button-light  button-block">12 Potato St (4.3 miles)</a>
+        <img src="https://maps.googleapis.com/maps/api/staticmap?center=40.7309296,-73.9931081&zoom=13.5&size=392x252&maptype=roadmap&markers=color:blue|label:1|40.735053,-73.995688&markers=color:yellow|label:2|40.725264,-73.999018&markers=color:red|label:3|40.727344,-73.977416" />
+        <a ng-repeat="location in locations" ui-sref="menu.location" class="button button-stable  button-block">
+            {{location.name}} ({{location.distance}})
+            <br>
+            {{location.address}}
+        </a>
     </ion-content>
 </ion-view>

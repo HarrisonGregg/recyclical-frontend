@@ -37,7 +37,7 @@ angular.module('app.routes', [])
   })
 
   .state('menu.nearbyLocations', {
-    url: '/locations',
+    url: '/where-to-recycle/:type',
     views: {
       'side-menu21': {
         templateUrl: 'templates/nearbyLocations.html',
